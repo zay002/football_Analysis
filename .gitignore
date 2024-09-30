@@ -1,0 +1,41 @@
+*.pt
+*.avi
+*.mp4
+*.jpg
+.git/
+training/
+# Python cache filesgit
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.cache/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.egg-info/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+
+# My personal files
+*.env
+*.log
+*.tmp
