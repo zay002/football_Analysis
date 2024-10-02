@@ -7,7 +7,7 @@ class TeamAssigner:
     def get_clustering_model(self, image):
         image_2d = image.reshape(-1, 3)
         
-        kmeans = KMeans(n_clusters=2, init="k-means++", n_init=1).fit(image_2d)
+        kmeans = KMeans(n_clusters=2, init="k-means++", n_init=10).fit(image_2d)
         
         return kmeans
     
