@@ -24,8 +24,8 @@ class  Tracker:
         
         ball_positions = [{1:{"bbox":x}}for x in df_ball_positions.to_numpy().tolist()]
         
-        return ball_positions
-        
+        return ball_positions  
+            
     
     def detect_frames(self, frames):
         batch_size = 25

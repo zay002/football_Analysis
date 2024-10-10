@@ -5,19 +5,19 @@ class viewTransformer():
         court_width = 68
         court_length = 23.32
         
-        self.pixel_verticies = np.array({
+        self.pixel_verticies = np.array([
             [110,1035],
             [265,275],
             [915,260],
             [1640,915]
-        })
+        ])
         
-        self.target_vetices = np.array({
+        self.target_vetices = np.array([
             [0,court_width],
             [0,0],
             [court_length,0],
             [court_length,court_width]
-        })
+        ])
         
         self.pixel_verticies = self.pixel_verticies.astype(np.float32)
         self.target_vetices = self.target_vetices.astype(np.float32)
@@ -44,4 +44,4 @@ class viewTransformer():
                     position_transformed = self.transform_point(position)
                     if position_transformed is not None:
                         position_transformed = position_transformed.squeeze().tolist()
-                    track[object][frame_num][object_id]["position_transformed"] = position_transformed
+                    tracks[object][frame_num][object_id]["position_transformed"] = position_transformed
