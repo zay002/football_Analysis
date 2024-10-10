@@ -4,8 +4,8 @@
 
 # 关键方法
 
-YOLO v8 or 11 迁移学习+训练+检测
-ByteTrack物体追踪
-Kmeans聚类
-Lucas Kanade光流法
-OpenCV透视变换 
+YOLO v8 or 11 迁移学习+训练+检测<br>
+ByteTrack物体追踪<br>
+Kmeans聚类<br>
+Lucas Kanade光流法<br>
+OpenCV透视变换 <br>
